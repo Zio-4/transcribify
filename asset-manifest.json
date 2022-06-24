@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/transcribify/static/css/main.7da3e37a.css",
-    "main.js": "/transcribify/static/js/main.5cd4a263.js",
+    "main.js": "/transcribify/static/js/main.566f1d5e.js",
     "static/js/787.290b35d2.chunk.js": "/transcribify/static/js/787.290b35d2.chunk.js",
     "index.html": "/transcribify/index.html",
     "main.7da3e37a.css.map": "/transcribify/static/css/main.7da3e37a.css.map",
-    "main.5cd4a263.js.map": "/transcribify/static/js/main.5cd4a263.js.map",
+    "main.566f1d5e.js.map": "/transcribify/static/js/main.566f1d5e.js.map",
     "787.290b35d2.chunk.js.map": "/transcribify/static/js/787.290b35d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7da3e37a.css",
-    "static/js/main.5cd4a263.js"
+    "static/js/main.566f1d5e.js"
   ]
 }
