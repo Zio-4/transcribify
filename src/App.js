@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
+
+const Input = styled('input')({
+  display: 'none',
+});
+
+const onChange = (e) => {
+  console.log('file: ', e.target.files)
+}
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <label htmlFor="contained-button-file">
+        <Input accept="image/*" id="contained-button-file" multiple type="file" onChange={onChange}/>
+        <Button variant="contained" component="span">
+          Upload
+        </Button>
+      </label>
     </div>
   );
 }
