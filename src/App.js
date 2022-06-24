@@ -49,7 +49,7 @@ function App() {
         clearInterval(interval)
         alert('An error occured. Try again. If error continues, check your file type to make sure it is compatible')
       } else if (transcriptStatus === "completed") {
-        console.log('transcription: ', transcription.data.text)
+        console.log('transcription: ', transcript.data.text)
         setLoading(false)
         setTranscription(transcript.data.text)
         clearInterval(interval)
